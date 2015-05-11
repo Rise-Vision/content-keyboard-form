@@ -1,0 +1,117 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	background-color: #f9f9f9;
+	    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+header {
+	background-color: #26a69a;
+	height:20vh;
+}
+
+.index {
+	position: absolute;
+	top:10vh;
+	left:20vw;
+	width:60vw;
+	height: 60vh;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+#main {
+    position: absolute;
+	top:0vw;
+	left:0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+	z-index: 2;
+}
+
+#copy {
+	position: relative;
+	width:110vw;
+	height:250px;
+	top:-5vh;
+	left:-5vw;
+	background-color: #26a69a;
+	color:white;
+}
+
+#inputs {
+	position: relative;
+	width:80vw;
+	left:10vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+
+h2 { 
+	position: relative;
+	top:-10px;
+	color:white;
+	font-size:4vw;
+}
+
+
+
+@media (min-width: 1920px) {
+body {
+font-size:30px;
+}
+#submit {
+position: relative;
+top:2vw;
+width: 300px;
+height: 50px;
+font-size: 30px;
+}
+#mdi-content-send  {
+font-size: 30px;
+}
+.input-field label.active {
+    font-size: 1.2rem;
+}
+.input-field .prefix {
+    font-size: 2.5rem;
+}
+    .input-field .prefix.active {
+      color: #26a69a; }
+.row {
+padding-top: 20px;
+}
+.input-field {
+height: 60px;
+}
+#name {
+
+}
+#tel {
+}
+	#email {
+}
+	#Pledge {
+}
+	
+}
+
+
+
+
+
+
+
+
+
+      
+
+

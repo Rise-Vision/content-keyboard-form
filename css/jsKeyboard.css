@@ -1,0 +1,148 @@
+body {margin:0px 0px; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+     /* text-align:center; /* Hack for IE5/Win */
+font-size:14px; 
+overflow:hidden;
+}
+
+.card-panel {
+	position: absolute;
+	top:10vh;
+	left:17.5vw;
+	width:65vw;
+	height:80vh;
+}
+
+#keyboardBackground{
+	position: absolute;
+	top:50%;
+    width:100%;
+	height:50%;
+	background-color:#37474F;
+	margin-left:-20px;
+ }
+
+#virtualKeyboard {
+width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#keyboard{
+    width:820px;
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+    display:block;
+ }
+
+
+#keyboard:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+#keyboardHeader {position:relative;}
+#keyboardHeader div {color:#fff; background-color:#7b8490;padding:3px; padding-left:15px; padding-right:15px; position:absolute; cursor:pointer; right:-10px; top:-40px;}
+.closex {font-weight:bolder; color:#fff;}
+
+#keyboardCapitalLetter {display:none;}
+#keyboardSmallLetter {display:block;}
+#keyboardNumber {display:none;}
+#keyboardSymbols {display:none;}
+
+.button
+{
+    width:60px; height:60px;
+    background-color:#37474F;
+    position:relative;
+    float:left;
+    margin-right:9px;
+    margin-top:10px;
+    cursor:pointer;
+    font-size:1.9em;
+	font-weight: 200;
+color:white;
+    /*box shadow*/
+    /*-webkit-box-shadow: 0px 1px 3px #000000;
+    /*box radius*/
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+	border-color: #455A64;
+    /*gradient*/
+    
+}
+.buttonDown {background:none;background-color: #82cbc4; -webkit-box-shadow:none;-moz-box-shadow: none;box-shadow: none;}
+.button_a {margin-left:34px;}
+.button_dash {margin-left:34px;}
+.button_underscore {margin-left:34px;}
+.button_enter {width:103px; font-size:1.3em; }
+.button_del{width:103px; font-size:1.3em;}
+.button_smallletter{font-size:1.3em;margin-left:24px;}
+.button_capitalletterleft{font-size:1.3em;margin-left:24px;}
+.button_capitalletterright{ width:129px; font-size:1.3em;}
+.button_numberleft{width:172px; font-size:1.3em; margin-left:54px;}
+.button_numberright{width:129px; font-size:1.3em;}
+.button_space {width:376px;}
+.button_symbolsleft{width:172px; font-size:1.3em; margin-left:26px;}
+.button_symbolsright{width:129px; font-size:1.3em;}
+
+
+.key {width:100%; height:100%; text-align:center; padding-top:12px;}
+.key_del {padding-top:18px;}
+.key_enter {padding-top:18px;}
+.key_smallletter {padding-top:18px;}
+.key_capitalletterleft {padding-top:18px;}
+.key_capitalletterright {padding-top:18px;}
+.key_number {padding-top:18px;}
+.key_symbols {padding-top:18px;}
+
+.button:hover {
+border-color: rgba(130, 203, 196, 0.8);
+
+}
+
+
+
+/** MEDIA QUERY FOR HD SCREENS 1920+**/
+@media (min-width: 1920px) {
+	
+	
+	#keyboard{
+	width:1130px;
+  	height: 400px;
+ }
+	
+  .button {
+    width:90px; height:90px;
+    margin-right:9px;
+    margin-top:10px;
+    font-size:2.5em;
+	padding-top:5px;
+  }
+	
+.buttonDown {background:none;background-color: #82cbc4; -webkit-box-shadow:none;-moz-box-shadow: none;box-shadow: none;}
+.button_a {margin-left:52px;}
+.button_dash {margin-left:52px;}
+.button_underscore {margin-left:52px;}
+.button_enter {width:130px; font-size:2em; }
+.button_del{width:130px; font-size:2em;}
+.button_smallletter{font-size:2em;}
+.button_capitalletterleft{font-size:2em;margin-left:24px;}
+.button_capitalletterright{ width:130px; font-size:2em;}
+.button_numberleft{width:200px; font-size:2em; margin-left:75px;}
+.button_numberright{width:160px; font-size:2em;}
+.button_space {padding-top:10px;width:600px;}
+.button_symbolsleft{width:200px; font-size:2em; margin-left:26px;}
+.button_symbolsright{width:160px; font-size:2em;}
+
+
+.key {width:100%; height:100%; text-align:center; padding-top:18px;}
+.key_del {padding-top:18px;}
+.key_enter {padding-top:18px;}
+.key_smallletter {padding-top:18px;}
+.key_capitalletterleft {padding-top:24px;}
+.key_capitalletterright {padding-top:18px;}
+.key_number {padding-top:24px;}
+.key_symbols {padding-top:24px;}	
+}

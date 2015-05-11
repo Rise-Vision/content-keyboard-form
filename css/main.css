@@ -1,11 +1,7 @@
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 body {
 	background-color: #f9f9f9;
-	    display: flex;
+	display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
@@ -14,6 +10,11 @@ body {
 header {
 	background-color: #26a69a;
 	height:20vh;
+	
+}
+
+header h2 {
+	margin-top: 10px;
 }
 
 .index {
@@ -56,52 +57,53 @@ header {
 }
 
 h2 { 
-	position: relative;
 	top:-10px;
 	color:white;
 	font-size:4vw;
 }
 
-
-
 @media (min-width: 1920px) {
-body {
-font-size:30px;
-}
-#submit {
-position: relative;
-top:2vw;
-width: 300px;
-height: 50px;
-font-size: 30px;
-}
-#mdi-content-send  {
-font-size: 30px;
-}
-.input-field label.active {
-    font-size: 1.2rem;
-}
-.input-field .prefix {
-    font-size: 2.5rem;
-}
-    .input-field .prefix.active {
-      color: #26a69a; }
-.row {
-padding-top: 20px;
-}
-.input-field {
-height: 60px;
-}
-#name {
-
-}
-#tel {
-}
-	#email {
-}
-	#Pledge {
-}
+	body {
+		font-size:30px;
+	}
+	#submit {
+		position: relative;
+		top:2vw;
+		width: 300px;
+		height: 50px;
+		font-size: 30px;
+	}
+	#mdi-content-send  {
+		font-size: 30px;
+	}
+	.input-field label.active {
+		font-size: 1.2rem;
+	}
+	.input-field .prefix {
+		font-size: 2.5rem;
+	}
+	.input-field .prefix.active {
+		  color: #26a69a; }
 	
+	.row {
+		padding-top: 20px;
+	}
+	
+	.input-field {
+		height: 60px;
+	}
+	
+	#name {
+	}
+	
+	#tel {
+	}
+	
+	#email {
+	}
+	
+	#Pledge {
+	}
 }
 
 

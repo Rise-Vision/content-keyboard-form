@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This Keyboard Form Template was designed with Materialize.css framework, jQuery4u onscreen keyboard & Formspree form. A preview of the tempalte can be seen here: http://rise-vision.github.io/content-keyboard-form/index.html
+This Keyboard Form Template was designed with Materialize.css framework, jQuery4u onscreen keyboard & Formspree form. A preview of the template can be seen here: http://rise-vision.github.io/content-keyboard-form/index.html
 
 ##Steps to run the Keyboard Form Template:##
 1. Fork or download the entire content-keyboard-form repository.  
@@ -22,15 +22,15 @@ This Keyboard Form Template was designed with Materialize.css framework, jQuery4
 ##Directions to Modify the Content Keyboard Template:##
 
 ####Changing the Material Design Style
-The Keyboard Form Template adheares to Google's Material Design Guidelines:
+The Keyboard Form Template adheres to Google's Material Design Guidelines:
 http://www.google.com/design/spec/material-design/introduction.html
 
-The Materialize.css framework was added for easy implemenation of various Material Design components such as inputs, buttons and cards. Documentaiton on how to modify or add more components can be seen here: http://materializecss.com/
+The Materialize.css framework was added for easy implementation of various Material Design components such as inputs, buttons and cards. Documentation on how to modify or add more components can be seen here: http://materializecss.com/
 
 ####User Input Submission
-The Keyboard Form emails the users inputs to an email adddress configured within the html file using a service called Formspree.io. We are utilziing formspree to eliminate the need for any server side languages such as php. 
+The Keyboard Form emails the users inputs to an email address configured within the html file using a service called Formspree.io. We are utilizing Formspree to eliminate the need for any server side languages such as php. 
 
-Locate the form tag within the index.html file and follow these three easy steps on formsprees website: https://formspree.io/
+Locate the form tag within the index.html file and follow these three easy steps on Formspree's website: https://formspree.io/
 
 ```
 <!--Form-->
@@ -39,10 +39,10 @@ Locate the form tag within the index.html file and follow these three easy steps
 
 
 ####Modifying the Onscreen Keyboard
-The onscreen keyboard is a simple on-screen keyboard powered by JavaScript/jQuery built by jQuery4u. The styling can be monified within css/jskeyboard.css and functionality within js/jskeyboard.js. 
+The onscreen keyboard is a simple on-screen keyboard powered by JavaScript/jQuery built by jQuery4u. The styling can be modified within css/jskeyboard.css and functionality within js/jskeyboard.js. 
 
 Within jskeyboard.css there are 2 media queries
-The first one: ```@media (max-width: 1260px)``` turns the visiblitly of the keyboard completely off. This is targeted for phones and tablets that will automaticly use their operating system keyboard. ```@media (min-width: 1920px)``` handles screens that have a resolution of 1920x1080 or above and makes the buttons bigger and easier to touch.
+The first one: ```@media (max-width: 1260px)``` turns the visiblitly of the keyboard completely off. This is targeted for phones and tablets that will automatically use their operating system keyboard. ```@media (min-width: 1920px)``` handles screens that have a resolution of 1920x1080 or above and makes the buttons bigger and easier to touch.
 
 The orignial jQuery4u repo is located here:
 https://github.com/sdeering/onscreenkeyboard
@@ -53,7 +53,7 @@ actual tools used
 - HTML
 - CSS
 - Javascript
-- Materizlie https://github.com/Dogfalo/materialize
+- Materialize https://github.com/Dogfalo/materialize
 - jQuery4u https://github.com/sdeering/onscreenkeyboard
 - formspree.io https://github.com/asm-products/formspree
 
@@ -82,7 +82,7 @@ What actually happened. (screenshots / video captures always help)
 All contributions are greatly appreciated and welcome! If you would first like to sound out your contribution ideas please post your thoughts to our [community](http://community.risevision.com), otherwise submit a pull request and we will do our best to incorporate it.
 
 ### Suggested Contributions
-- Different Styling for Buttons and Keyboard other than Materizlie
+- Different Styling for Buttons and Keyboard other than Materialize
 - Animations for backgrounds or user engagement 
 - i18n Language Support
 

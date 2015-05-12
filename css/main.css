@@ -1,11 +1,7 @@
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 body {
 	background-color: #f9f9f9;
-	    display: flex;
+	display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
@@ -14,6 +10,16 @@ body {
 header {
 	background-color: #26a69a;
 	height:20vh;
+	z-index: 1;
+	
+}
+
+header h2 {
+	margin-top: 10px;
+	z-index: 1;
+}
+.card-panel {
+	z-index: 2;
 }
 
 .index {
@@ -56,54 +62,122 @@ header {
 }
 
 h2 { 
-	position: relative;
 	top:-10px;
 	color:white;
 	font-size:4vw;
 }
 
-
-
 @media (min-width: 1920px) {
-body {
-font-size:30px;
-}
-#submit {
-position: relative;
-top:2vw;
-width: 300px;
-height: 50px;
-font-size: 30px;
-}
-#mdi-content-send  {
-font-size: 30px;
-}
-.input-field label.active {
-    font-size: 1.2rem;
-}
-.input-field .prefix {
-    font-size: 2.5rem;
-}
-    .input-field .prefix.active {
-      color: #26a69a; }
-.row {
-padding-top: 20px;
-}
-.input-field {
-height: 60px;
-}
-#name {
-
-}
-#tel {
-}
+	body {
+		font-size:30px;
+	}
+	#submit {
+		position: relative;
+		top:2vw;
+		width: 300px;
+		height: 50px;
+		font-size: 30px;
+	}
+	#mdi-content-send  {
+		font-size: 30px;
+	}
+	.input-field label.active {
+		font-size: 1.2rem;
+	}
+	.input-field .prefix {
+		font-size: 2.5rem;
+	}
+	.input-field .prefix.active {
+		  color: #26a69a; }
+	
+	.row {
+		padding-top: 20px;
+	}
+	
+	.input-field {
+		height: 60px;
+	}
+	
+	#name {
+	}
+	
+	#tel {
+	}
+	
 	#email {
-}
+	}
+	
 	#Pledge {
+	}
 }
+
+#background {
+	overflow: hidden;
+	text-align: center;
+	z-index: -1;
 	
 }
 
+#background img {
+	width:150%;
+	-webkit-animation-duration: 205s;
+    -webkit-animation-name: slidein;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+
+@-webkit-keyframes "slidein" {
+ 25% {
+   -webkit-transform: scale(1.5) translate3d(-300px, 0px, 0px);
+   transform: scale(1.5) translate3d(-300px, 0px, 0px);
+ }
+ 50% {
+   -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
+   transform: scale(1) translate3d(0px, 0px, 0px);
+ }
+ 75% {
+   -webkit-transform: scale(1.5) translate3d(+300px, 0px, 0px);
+   transform: scale(1.5) translate3d(+300px, 0px, 0px);
+ }
+}
+
+/* Footer Icons */
+#github {
+	position:absolute;
+	 width:50vw;
+	 height:4vh;
+	 left:9vw;
+	 top:91vh;
+	 z-index:4;
+}
+
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:3.6vh;
+	opacity:.25;
+	color:#37474F;
+}
+
+#rise {
+	opacity:.25;
+	width:5vw;
+	height:4vh;
+	left:5vw;
+	top:91vh;
+	z-index:5;
+	margin-left:-1vw;
+	position:absolute;
+	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
+}
+	
 
 
 
